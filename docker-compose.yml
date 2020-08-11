@@ -1,7 +1,7 @@
 version: '3'
 services:
   cardinalitycube:
-      image: ibrahimercan/cardinalitycube:latest
+    image: ibrahimercan/cardinalitycube:latest
     ports: 
       - "1994:1994"
     command: cubeserver start
