@@ -11,11 +11,17 @@ Thanks to modular design of CC ecosystem you can either;
 # Simple usage
 
 ```
-docker run -d -p 1994:1994 --name ccube cardinalitycube cubeserver start
+docker run -d -p 1994:1994 --name ccubeserver ibrahimercan/cardinalitycube cubeserver start
 ```
 
 or with docker-compose [file](https://raw.githubusercontent.com/ibotheperfect/docker-cardinalitycube/master/docker-compose.yml)
 
 ```
 docker-compose up -d 
+```
+
+Run client as
+
+```
+docker run -it --name ccubeclient ibrahimercan/cardinalitycube cubecli
 ```
