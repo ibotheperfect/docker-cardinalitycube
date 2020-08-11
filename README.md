@@ -14,7 +14,7 @@ Thanks to modular design of CC ecosystem you can either;
 docker run -d -p 1994:1994 --name ccube cardinalitycube cubeserver start
 ```
 
-or with docker-compose
+or with docker-compose [file](https://raw.githubusercontent.com/ibotheperfect/docker-cardinalitycube/master/docker-compose.yml)
 
 ```
 docker-compose up -d 
