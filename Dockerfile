@@ -1,6 +1,6 @@
 FROM golang:1.14.7-buster
 
-ARG VERSION=0.3.1
+ARG VERSION="0.3.1"
 
 RUN apt update
 RUN apt install -y libzmq3-dev libsodium-dev libczmq-dev
